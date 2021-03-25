@@ -1,0 +1,13 @@
+﻿<Window x:Name="GameSpace" x:Class="PlatformerShot.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PlatformerShot"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="1280" KeyDown="Window_KeyDown" KeyUp="Window_KeyUp" MouseMove="Window_MouseMove" MouseDown="Window_MouseDown" SizeChanged="Window_SizeChanged">
+    <Canvas x:Name="Workspace" Margin="10" Width="1260" Height="680">
+        <Label x:Name="Score_label" Content="SCORE" Canvas.Left="10" Canvas.Top="10" FontFamily="Showcard Gothic" FontSize="14"/>
+
+    </Canvas>
+</Window>
